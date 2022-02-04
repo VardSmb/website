@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <header class="header header__main">
+    <div class="header__top">
+      <div class="header__top-inner">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="company.html" class="menu__link">О компании</a>
+            </li>
+            <li class="menu__item">
+              <a href="oplata.html" class="menu__link">Доставка и оплата</a>
+            </li>
+            <li class="menu__item">
+              <a href="employees.html" class="menu__link">Сотрудничество</a>
+            </li>
+            <li class="menu__item">
+              <a href="contacts.html" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class="container">
+      <div class="header__logo">
+        <div class="menu__logo">
+          <a href="#" class="logo">
+            <img src="images/logo-italkeramika.png" width="300px" alt="">
+          </a>
+          <div class="header__box">
+            <a href="tel:+78125756555" class="header__phone">+7 (812) 575-65-55</a></br>
+            <a href="mailto:info@italkeramika-spb.ru" class="header__email">info@italkeramika-spb.ru</a>
+          </div>
+          <ul class="user-list">
+            <li class="user-list__item search">
+              <input class="search-inp" placeholder="Поиск"  type="search" name="" id="search">
+            </li>
+            <li class="user-list__item">
+              <a href="#" class="user-list__link favorite">
+                <img src="images/heart.svg" alt="">
+                <p class="favorite__num">2</p>
+              </a>
+            </li>
+            <li class="user-list__item">
+              <a href="#" class="user-list__link basket">
+                <img src="images/basket.png" alt="">
+                <p class="basket__num">1</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <ul class="menu-categories">
+            <li class="menu-categories__item">
+              <a href="brands.html" class="menu-categories__link">Каталог брендов</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="#" class="menu-categories__link">Керамогранит</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="#" class="menu-categories__link">Настенная плитка</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="#" class="menu-categories__link">Напольная плитка</a>
+            </li>
+            <li class="menu-categories__item">
+              <a href="#" class="menu-categories__link">Мозаика</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="breadcrumbs">
+  <div class="container">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__list-item"><a href="#">Главная</a></li>
+      <li class="breadcrumbs__list-item"><a href="#">Каталог</a></li>
+    </ul>
+  </div>
+</div>
+<section class="catalog">
+  <div class="container">
+    <div class="catalog__inner">
+      <aside class="catalog__inner-aside aside-filter">
+        <div class="filter-wrapper">
+          <div class="aside-filter__buttons">
+            <a href="#" class="aside-filter__button aside-filter__button--active">Коллекции</a>
+            <a href="catalog-product.html" class="aside-filter__button">Товары</a>
+          </div>
+          <form action="" class="aside-filter__form">
+            <ul class="aside-filter__list">
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Разделы каталога</p>
+                <div class="aside-filter__content">
+                  <ul class="aside-filter__list">
+                    <li class="aside-filter__item"><a class="aside-filter__link" href="#">Керамогранит</a></li>
+                    <li class="aside-filter__item"><a class="aside-filter__link" href="#">Настенная плитка</a></li>
+                    <li class="aside-filter__item"><a class="aside-filter__link" href="#">Напольная плитка</a></li>
+                    <li class="aside-filter__item"><a class="aside-filter__link" href="#">Мозаика</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Страны</p>
+                <div class="aside-filter__content">
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Италия
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Испания
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Китай
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Россия
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Индия
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Иран
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Турция
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Португалия
+                    </label>
+                  </div>
+                </div>
+              </li>
+
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Производитель</p>
+                <div class="aside-filter__content">
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Brennero
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Cerdomus
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Dom Ceramiche
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Emil Ceramica
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      La Fabrica
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Marka Corona
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Panaria
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Roberto Cavalli
+                    </label>
+                  </div>
+                  <a class="link" href="brands.html">Весь список брендов</a>
+                </div>
+              </li>
+
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Наличие</p>
+                <div class="aside-filter__content">
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      В наличии
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" type="checkbox">
+                      Под заказ
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Наши предложения</p>
+                <div class="aside-filter__content">
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" name="radio" type="radio">
+                      Акции
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" name="radio" type="radio">
+                      New
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" name="radio" type="radio">
+                      Hit
+                    </label>
+                  </div>
+                  <div class="aside-filter__content-box">
+                    <label class="aside-filter__content-label">
+                      <input class="filter-style" name="radio" type="radio">
+                      Sale
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="aside-filter__item-drop">
+                <p class="aside-filter__item-title filter__item-drop filter__item-drop--active">Цена</p>
+                <div class="aside-filter__content">
+                  <div class="range-slider">
+                    <input type="text" class="js-range-slider" value="" />
+                  </div>
+                  <div class="extra-controls">
+                    <div class="extra-controls__input-box">от <input type="text" class="js-input-from" value="0" />руб.</div>
+                    <div class="extra-controls__input-box">до <input type="text" class="js-input-to" value="0" />руб.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="aside-filter__item-drop"></li>
+              <li class="aside-filter__item-drop"></li>
+              <li class="aside-filter__item-drop"></li>
+            </ul>
+            <a href="#" class="delete-filter">Сбросить фильтр</a>
+          </form>
+        </div>
+      </aside>
+      <button class="filter__btn">
+        <img src="images/filter.png" alt="">
+        <span> Фильтр</span>
+      </button>
+      <div class="catalog__inner-main">
+        <h2 class="catalog__title">Каталог</h2>
+        <div class="catalog__filter">
+          <div class="catalog__filter-btn">
+            <div class="select-wrapper">
+              <span>Сортировать:  </span>
+              <select name="" id="" class="filter-style">
+                <option value="">По популярности</option>
+                <option value="">Новинки</option>
+                <option value="">По цене</option>
+                <option value="">По алфавиту</option>
+              </select>
+            </div>
+            <div class="catalog__filter-btns">
+              <button class="catalog__filter-btngrid catalog__filter-button--active"><img src="images/grid.png" alt=""></button>
+              <button class="catalog__filter-btnline"><img src="images/line.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+      
+      <div class="catalog__inner-list">
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item product-item--sale product-item--new" href="collection-page.html">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/categories32.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Airslate</h4>
+              <h3 class="product-item__brend">L'antic colonial | <span class="product-item__country">Испания</span></h3>
+              <!--<div class="available-box available">
+                <div class="available-circle"></div>
+                <div class="available-status">В наличии</div>
+              </div>-->
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner1.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Airslate</h4>
+              <h3 class="product-item__brend">L'antic colonial | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner3.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Calacatta</h4>
+              <h3 class="product-item__brend">Xlight | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner2.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Prada</h4>
+              <h3 class="product-item__brend">Porcelanosa | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner5.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Metropolitan</h4>
+              <h3 class="product-item__brend">Venis | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner4.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Cremabella</h4>
+              <h3 class="product-item__brend">Dune | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner1.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Airslate</h4>
+              <h3 class="product-item__brend">L'antic colonial | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="product-item__wrapper">
+          <button class="product-item__favorite"><span class="product-btn">В избранное</span></button>
+          <a class="product-item" href="#">
+            <div class="product-item__img-box">
+              <img class="product-item__img" src="images/banner3.jpg" alt="">
+            </div>
+            <div class="product-item__description">
+              <h4 class="product-item__collection">Calacatta</h4>
+              <h3 class="product-item__brend">Xlight | <span class="product-item__country">Испания</span></h3>
+              <p class="price product-item__current-price">
+                <span class="product-item__price">10 000</span> руб./м<sup>2</sup><br>
+                <span class="product-item__old-price">14 000 руб.</span>
+              </p>
+            </div>
+          </a>
+        </div>
+
+
+        <div class="pagination">
+          <ul class="pagination-list">
+            <li class="pagination-list__item active"><a href="#">1</a></li>
+            <li class="pagination-list__item"><a href="#">2</a></li>
+            <li class="pagination-list__item"><a href="#">3</a></li>
+            <li class="pagination-list__item"><a href="#">4</a></li>
+            <li class="pagination-list__item"><a href="#">5</a></li>
+            <li class="pagination-list__item"><a href="#">...</a></li>
+            <li class="pagination-list__item"><a href="#">15</a></li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__top-inner">
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">Компания</h4>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">О нас</a></li>
+              <li class="footer-list__item"><a href="#">Категории</a></li>
+              <li class="footer-list__item"><a href="#">Преимущества</a></li>
+              <li class="footer-list__item"><a href="#">Отзывы</a></li>
+              <li class="footer-list__item"><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">Каталог</h4>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">Каталог брендов</a></li>
+              <li class="footer-list__item"><a href="#">Керамогранит</a></li>
+              <li class="footer-list__item"><a href="#">Настенная плитка</a></li>
+              <li class="footer-list__item"><a href="#">Напольная плитка</a></li>
+              <li class="footer-list__item"><a href="#">Мозаика</a></li>
+            </ul>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">Услуги  и предложения</h4>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">Доставка и оплата</a></li>
+              <li class="footer-list__item"><a href="#">Гарантия и возврат</a></li>
+              <li class="footer-list__item"><a href="#">Новинки года</a></li>
+              <li class="footer-list__item"><a href="#">Хиты продаж</a></li>
+              <li class="footer-list__item"><a href="#">Акции</a></li>
+            </ul>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">Контакты</h4>
+            <ul class="footer-list">
+              <li class="footer-list__item"><span>г. Санкт-Петербург, ул. Репищева д. 14Ж</span></li>
+              <li class="footer-list__item"><a href="tel:+78125756555">+7 (812) 575-65-55</a></li>
+              <li class="footer-list__item"><a href="mailto:info@italkeramika-spb.ru">info@italkeramika-spb.ru</a></li>
+              <li class="footer-list__item footer-list__item-social">
+                <a href="https://vk.com/italceramica"  class="footer__social" target="_blank">
+                  <img src="images/vk.png" alt="" class="footer__sotial-icon">
+                </a>
+                <a href="https://www.facebook.com/Italkeramikaspb/" class="footer__social" target="_blank">
+                  <img src="images/fb.png" alt="" class="footer__sotial-icon">
+                </a>
+                <a href="https://twitter.com/italkeramikaspb" class="footer__social" target="_blank">
+                  <img src="images/twitter.png" alt="" class="footer__sotial-icon">
+                </a>
+                <a href="https://www.instagram.com/italkeramika/" class="footer__social" target="_blank">
+                  <img src="images/instagram.png" alt="" class="footer__sotial-icon">
+                </a>
+              </li>
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom"> 
+      <div class="footer__bottom-inner">
+        <p class="">Вся информация на странице предназначена только для ознакомления и носит справочный характер, не является публичной офертой или коммерческим предложением. Получить оферту или коммерческое предложение, можно только через менеджеров (даже при оформлении заявки на сайте).</p>
+        <div class="footer-rights">
+          <div>
+            <span class="all-rights">&copy; Италкерамика-СПб.  Все права защищены. </span> | 
+             <a class="footer__privacy" href="privacy.html">Политика конфиденциальности</a>
+          </div>
+           <a class="mycreativewebsite" href="http://mycreative.website" target="_blank">MyCreativeWebsite</a>
+         </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
